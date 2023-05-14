@@ -1,5 +1,13 @@
 ![image](https://github.com/GunduSriBhanu/SriBhanu_DATA606/assets/112648901/5023e3a0-b7d7-4a66-8a19-38bfe41c57fe)
 
+### Presentation PPT Link:
+
+https://github.com/DATA-606-SPRING-2023-TUE/SriBhanu_DATA606/blob/main/docs/capstone.pptx
+
+### YouTube Link:
+
+https://www.youtube.com/watch?v=JhPwiieBoZ4
+
 # Heart Disease Prediction
 ![image](https://github.com/GunduSriBhanu/SriBhanu_DATA606/blob/main/docs/images/Data_Life_Cycle.png)
 
@@ -104,10 +112,6 @@ Streamlit web deployment involves creating a web-based application for predictin
 
 ### Conclusion:
 Based on the overall data analysis, it can be observed that heart diseases are more common in males over the age of 50 with high cholesterol levels (>200 mg), fasting blood sugar presence, asymptomatic blood pressure, and ST_depression between 0 to 2. Therefore, patients with these parameters should take extra care to prevent heart diseases. Random Forest algorithm was used to predict the presence of heart diseases. The developed heart failure prediction model has demonstrated its potential to predict the likelihood of heart failure in patients based on their medical history and other factors. It can be a useful tool for healthcare professionals to identify high-risk patients and provide them with appropriate treatments and preventive measures. However, the accuracy and reliability of the model depend on the quality and completeness of the data used to train it. Further research is required to validate its performance on larger and more diverse datasets. The model has been implemented as a web application using Streamlit.
-
-### Presentation PPT Link:
-
-https://github.com/DATA-606-SPRING-2023-TUE/SriBhanu_DATA606/blob/main/docs/capstone.pptx
 
 ### References:
 
