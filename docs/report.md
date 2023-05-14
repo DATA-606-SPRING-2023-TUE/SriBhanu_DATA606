@@ -115,7 +115,7 @@ After evaluating the validation metrics using ROC curves, Accuracy, Recall and p
 
 Streamlit web deployment involves creating a web-based application for predicting heart failure using the Streamlit library. The process starts with developing a heart failure prediction model using machine learning algorithms and training it on a dataset. The next step involves integrating the model with a Streamlit application to create an interactive interface that allows users to input their health data for predicting the likelihood of heart failure. The application can also provide visualizations and insights into the data to help users understand the results more easily.
 
-**File:**  streamlit_heart_disease_predict.py
+**File:**  "streamlit_heart_disease_predict.py"
 
 **Local URL:** http://localhost:8501
 
