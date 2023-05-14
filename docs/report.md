@@ -85,13 +85,25 @@ The missing data in the dataset was filled using mean imputation and then the da
 
 Heart disease diagnosis in patients can be done using regression and classification models. However, when fitting models such as logistic regression, random forest and decision trees, issues like overfitting, multicollinearity, skewness and outliers in the data were encountered. Decision trees showed severe overfitting, with a large difference in training and testing performance metrics.  
 
+**Comparison of models with accuracy**
+
+![image](https://github.com/GunduSriBhanu/SriBhanu_DATA606/blob/main/docs/images/606_Accarcy_compare_models.png)
+
 **After hyperparameter tuning:**
 
 To solve these problems, hyperparameter tuning with grid search CV was performed, resulting in improved performance metrics like accuracy, recall and precision. The best model parameters were then used for cross-validation with 6 folds to determine the best performance.
 
+**Comparing models after hyper tuning parameters with best scores**
+
+![image](https://github.com/GunduSriBhanu/SriBhanu_DATA606/blob/main/docs/images/606_ROC_AUC_CV.png)
+
 **Voting Classifiers:**
 
 From the ROC curves of validation metrics for ensembles of voting classifiers, the Random Forest model outperformed voting classifier, decision trees and logistic regression, making it the better model for predicting heart disease diagnosis. 
+
+**Comparing models of ensembles, voting classifiers with best scores**
+
+![image](https://github.com/GunduSriBhanu/SriBhanu_DATA606/blob/main/docs/images/606_VOT_CLF.png)
 
 ### Evaluating the model:
 
