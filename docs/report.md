@@ -83,17 +83,24 @@ The missing data in the dataset was filled using mean imputation and then the da
 
 **Classification models:**
 
+Heart disease diagnosis in patients can be done using regression and classification models. However, when fitting models such as logistic regression, random forest and decision trees, issues like overfitting, multicollinearity, skewness and outliers in the data were encountered. Decision trees showed severe overfitting, with a large difference in training and testing performance metrics.  
+
 **After hyperparameter tuning:**
+
+To solve these problems, hyperparameter tuning with grid search CV was performed, resulting in improved performance metrics like accuracy, recall and precision. The best model parameters were then used for cross-validation with 6 folds to determine the best performance.
 
 **Voting Classifiers:**
 
+From the ROC curves of validation metrics for ensembles of voting classifiers, the Random Forest model outperformed voting classifier, decision trees and logistic regression, making it the better model for predicting heart disease diagnosis. 
+
 ### Evaluating the model:
 
-After evaluating the validation metrics using ROC curves, it can be observed that the Random Forest model has a slightly higher performance compared to the decision tree and logistic regression models. Therefore, the Random Forest model is considered to be the preferred model for heart failure prediction.
+After evaluating the validation metrics using ROC curves, Accuracy, Recall and precision, it can be observed that the Random Forest model has a slightly higher performance compared to the decision tree and logistic regression models. Therefore, the Random Forest model is considered to be the preferred model for heart failure prediction.
 
 **File:** "UCI_Heart_Disease_Prediction_Modeling.ipynb"
 
 ### Deploying the model:
+
 Streamlit web deployment involves creating a web-based application for predicting heart failure using the Streamlit library. The process starts with developing a heart failure prediction model using machine learning algorithms and training it on a dataset. The next step involves integrating the model with a Streamlit application to create an interactive interface that allows users to input their health data for predicting the likelihood of heart failure. The application can also provide visualizations and insights into the data to help users understand the results more easily.
 
 **File:**  streamlit_heart_disease_predict.py
